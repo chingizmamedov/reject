@@ -1,0 +1,40 @@
+.search {
+    &-label {
+        position: relative;
+    }
+
+    &-input {
+        border: none;
+        background-color: #e7e7e7;
+        outline: none;
+
+        &-wrap {
+            border: 1px solid #cfcece;
+            border-radius: 20px;
+            padding: 5px 10px 5px 15px;
+            background-color: #e7e7e7;
+        }
+    }
+
+
+    &-custom {
+        &-btn {
+            transition: cubic-bezier(0.25, 0.1, 0.67, 1.65) 0.4s;
+            transform-origin: center;
+            transform: scale(0);
+            border-radius: 50%;
+            border: none;
+            color: #fff;
+            padding: 2px 6px 4px;
+            background-color: #ffc107;
+            position: absolute;
+            right: -8px;
+            outline: none;
+
+            &__active {
+                transform: scale(1);
+            }
+        }
+    }
+
+}
